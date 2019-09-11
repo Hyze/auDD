@@ -47,10 +47,10 @@ public class Six {
 	}
 
 	public void readTheFile2() throws IOException { 
-		OutputStream stream = null;
+		OutputStream  stream = null ; 
 		for (String property : propertyList) {
-			try {
-				stream = new FileOutputStream(this.getFileName());
+			try (OutputStream  temp =  new FileOutputStream(this.getFileName())) {
+				stream = temp; 
 				stream.write(property.getBytes());
 			} catch (FileNotFoundException fnfe) {
 				log.log(Level.INFO, fnfe.getMessage()); 

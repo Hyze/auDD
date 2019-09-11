@@ -1,7 +1,8 @@
 package example;
 
+import java.security.SecureRandom;
 import java.util.Arrays;
-import java.util.Random;
+
 
 public class Ten {
 	float a = 16777216.0f;
@@ -9,7 +10,7 @@ public class Ten {
 	float c = a + b;
 
 	double d = a + b;
-	Random random = new Random();
+	SecureRandom random = new SecureRandom();
 	public boolean isOdd(int x) {
 		return x % 2 == 1;
 	}
