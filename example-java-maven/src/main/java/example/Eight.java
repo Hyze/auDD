@@ -1,4 +1,4 @@
-package example;
+	package example;
 
 public class Eight {
 	public static final One foo = new One(); //this leve l'ambiguiter 
