@@ -8,11 +8,20 @@ public class Twelve extends Thread {
 		thread.start();
 	}
 
-	@SuppressWarnings("deprecation")
+	@Override
+	public void run() {
+		super.run();
+		arret();
+
+	}
+
 	public void arret() {
 		if (thread.isAlive()) {
-			notify();
-			thread.stop();
+			synchronized (thread) {
+				notifyAll();
+			}
+			thread.interrupt();
 		}
 	}
+
 }
