@@ -1,0 +1,5 @@
+autoEnabled=true
+eclipse.preferences.version=1
+extraProperties=
+moduleKey=org.sonarqube\:example-java-maven
+serverId=SonarQube v6.7 Public
