@@ -26,7 +26,7 @@ public class SevenTest {
     @Test
     public void testSetMessage() {
     	seven.setMessage("changement");
-    	assertEquals(seven.getMessage(),"changement");
+    	assertEquals("changement",seven.getMessage());
     }
     
     @Test

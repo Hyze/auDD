@@ -10,10 +10,12 @@ public class Seven extends Two {
 		return res.toString();
 	}
 
+	@Override
 	public void setMessage(String message) {
 		this.message = message;
 	}
 
+	@Override
 	public String getMessage(){
 		return this.message;
 	}
