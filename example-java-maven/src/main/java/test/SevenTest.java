@@ -26,7 +26,7 @@ public class SevenTest {
     @Test
     public void testSetMessage() {
     	seven.setMessage("changement");
-    	assertEquals(seven.message,"changement");
+    	assertEquals(seven.getMessage(),"changement");
     }
     
     @Test
@@ -39,20 +39,20 @@ public class SevenTest {
 		assertEquals(false,seven.equals(one));
 		assertEquals(false,seven.equals(null));
 		
-		seven.message=null;
+		seven.setMessage(null);
 		Seven s2 = new Seven();
 		
 		assertEquals(false,seven.equals(s2));
 		
-		s2.message=null;
+		s2.setMessage(null);
 		assertEquals(true,seven.equals(s2));
 		
-		seven.message="foo";
-		s2.message="fo";
+		seven.setMessage("foo");
+		s2.setMessage("fo");
 		assertEquals(false,seven.equals(s2));
 		assertEquals(false,s2.equals(seven));
 		
-		s2.message="foo";
+		s2.setMessage("foo");
 		assertEquals(true,s2.equals(seven));
 	}
     

@@ -9,7 +9,7 @@ import java.util.logging.Logger;
  *
  */
 public class Three {
-	public String message = "foo";
+	 String message = "foo";
 	Logger log = Logger.getLogger("logger1");
 
 
@@ -41,6 +41,13 @@ public class Three {
 		return str.toString();
 	}
 	// duplication de code suppression de concat4
-		
-	
+
+
+	public String getMessage() {
+		return message;
+	}
+
+	public void setMessage(String message) {
+		this.message = message;
+	}
 }

@@ -19,10 +19,11 @@ public class ThreeTest {
 		one = new One();
 		two = new Two();
 		three = new Three();
-		one.message="foo1";
-		two.message="foo2";
-		three.message="foo3";
+		one.setMessage("foo1");
+		two.setMessage("foo2");
+		three.setMessage("foo3");
 	}
+
 
 	@Test
 	public void testConcat() {

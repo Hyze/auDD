@@ -28,7 +28,22 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/example-java-maven/src/main/java/example/One.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/example-java-maven/src/main/java/example/Seven.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/example-java-maven/src/main/java/example/Six.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/example-java-maven/src/main/java/example/Three.java">
           <value>
             <set />
           </value>
@@ -49,6 +64,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/example-java-maven/src/main/java/test/OneTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/example-java-maven/src/main/java/test/SevenTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/example-java-maven/src/main/java/test/ThreeTest.java">
           <value>
             <set />
           </value>

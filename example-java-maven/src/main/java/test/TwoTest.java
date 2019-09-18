@@ -31,14 +31,14 @@ public class TwoTest {
 		assertEquals(false,two.equals(one));
 		assertEquals(false,two.equals(null));
 		
-		two.message=null;
+		two.setMessage(null);
 		Two two2 = new Two();
 		assertEquals(false,two.equals(two2));
-		two2.message=null;
+		two2.setMessage(null);
 		assertEquals(true,two.equals(two2));
 		
-		two.message="foo";
-		two2.message="fo";
+		two.setMessage("foo");
+		two2.setMessage("fo");
 		assertEquals(false,two.equals(two2));
 		assertEquals(false,two2.equals(two));
 	}

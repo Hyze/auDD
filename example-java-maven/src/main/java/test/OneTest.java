@@ -18,6 +18,6 @@ public class OneTest {
 	
 	@Test
 	public final void testFoo() {
-		assertEquals(un.message, un.foo());
+		assertEquals(un.getMessage(), un.foo());
 	}
 }

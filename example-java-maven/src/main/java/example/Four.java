@@ -1,7 +1,7 @@
 package example;
 
 public class Four {
-	public String message;
+	 String message;
 
 	public String getMessage() {
 		return message;
@@ -12,14 +12,12 @@ public class Four {
 	}
 
 	public boolean isMessageEmpty() {
-<<<<<<< HEAD
-		if(getMessage()==null){
-			return true;
-		}
-=======
 		if(this.getMessage()==null)
 			return true;
->>>>>>> master
 		return getMessage().isEmpty();
+	}
+
+	public void setMessage(String message) {
+		this.message = message;
 	}
 }

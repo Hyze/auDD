@@ -13,7 +13,9 @@ public class Seven extends Two {
 	public void setMessage(String message) {
 		this.message = message;
 	}
-
+	public String getMessage(){
+		return this.message;
+	}
 	@Override
 	public int hashCode() {
 		final int prime = 31;

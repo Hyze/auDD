@@ -6,7 +6,7 @@ package example;
  *
  */
 public class Two {
-	public String message = "foo";
+	 String message = "foo";
 	static final String ERROR="ERREUR";
 	static final String SUCCES="SUCCES";
 	/**
@@ -52,5 +52,13 @@ public class Two {
 		else if (!message.equals(other.message))
 			return false;
 		return true;
+	}
+
+	public String getMessage() {
+		return message;
+	}
+
+	public void setMessage(String message) {
+		this.message = message;
 	}
 }

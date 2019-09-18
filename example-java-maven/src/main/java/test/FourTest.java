@@ -17,7 +17,7 @@ public class FourTest {
 
 	@Test
 	public void testGetMessage() {
-		assertEquals(four.message,four.getMessage());
+		assertEquals(four.getMessage(),four.getMessage());
 	}
 	
 	@Test
