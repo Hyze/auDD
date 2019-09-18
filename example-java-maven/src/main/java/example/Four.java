@@ -12,9 +12,14 @@ public class Four {
 	}
 
 	public boolean isMessageEmpty() {
+<<<<<<< HEAD
 		if(getMessage()==null){
 			return true;
 		}
+=======
+		if(this.getMessage()==null)
+			return true;
+>>>>>>> master
 		return getMessage().isEmpty();
 	}
 }
