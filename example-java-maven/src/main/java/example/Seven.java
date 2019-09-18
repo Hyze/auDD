@@ -1,8 +1,6 @@
 package example;
 
 public class Seven extends Two {
-	public Seven() {
-	}
 
 	public String longString(int facteur) {
 		StringBuilder res = new StringBuilder();
@@ -15,6 +13,7 @@ public class Seven extends Two {
 	public void setMessage(String message) {
 		this.message = message;
 	}
+
 	public String getMessage(){
 		return this.message;
 	}
