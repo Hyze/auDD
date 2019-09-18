@@ -12,7 +12,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.List;
 
-public class Six {
+public class 	Six {
 	private String fileName;
 	private List<String> propertyList;
 	Logger log = Logger.getLogger("Logger6");

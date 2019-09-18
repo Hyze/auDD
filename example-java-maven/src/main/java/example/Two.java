@@ -6,7 +6,7 @@ package example;
  *
  */
 public class Two {
-	String message = "foo";
+	public String message = "foo";
 	static final String ERROR="ERREUR";
 	static final String SUCCES="SUCCES";
 	/**

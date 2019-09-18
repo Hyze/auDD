@@ -9,7 +9,7 @@ import java.util.logging.Logger;
  *
  */
 public class Three {
-	String message = "foo";
+	public String message = "foo";
 	Logger log = Logger.getLogger("logger1");
 
 
