@@ -1,6 +1,8 @@
 package example;
 
 public class Seven extends Two {
+	public Seven() {
+	}
 
 	public String longString(int facteur) {
 		StringBuilder res = new StringBuilder();

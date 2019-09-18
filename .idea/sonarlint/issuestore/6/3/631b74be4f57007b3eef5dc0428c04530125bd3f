@@ -1,0 +1,5 @@
+
+"squid:ClassVariableVisibilityCheck"QMake seven a static final constant or non-public and provide accessors if needed.(±ùõ—
+Bsquid:S1444"+Make this "public static seven" field final(±ùõ—
+–squid:S2159("zRemove this call to "equals"; comparisons against null always return false; consider using '== null' to check for nullity.(´ïÚµÿÿÿÿÿ
+msquid:S2159'"VRemove this call to "equals"; comparisons between unrelated types always return false.(Ïçò„
