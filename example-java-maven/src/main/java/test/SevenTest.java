@@ -1,7 +1,9 @@
-package example;
+package test;
 
 import static org.junit.Assert.assertEquals;
 
+import example.One;
+import example.Seven;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
